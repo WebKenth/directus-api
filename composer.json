@@ -1,7 +1,7 @@
 {
-  "name": "c14r/directus-api",
+  "name": "webkenth/directus-api",
   "type": "library",
-  "description": "A Wrapper for the Directus REST-API",
+  "description": "A Wrapper for the Directus REST-API, courtesy of C14r",
   "keywords": [
     "http",
     "rest",
@@ -17,10 +17,15 @@
       "name": "Christian Pfeifer",
       "email": "mail@christian-pfeifer.de",
       "homepage": "http://www.christian-pfeifer.de/"
+    },    
+    {
+      "name": "Martin Knudsen",
+      "email": "mkk@webkenth.dk",
+      "homepage": "https://webkenth.dk/"
     }
   ],
   "require": {
-    "php": "^7.4|^8.0",
+    "php": "^7.4|^8.0|^8.1",
     "ext-json": "*",
     "guzzlehttp/guzzle": "^7.2.0"
   },
