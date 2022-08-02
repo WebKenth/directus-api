@@ -250,11 +250,15 @@ class Request
      */
     protected function buildOptions(): array
     {
-        return [
+        $options = [
             'headers' => $this->headers,
             'query'   => $this->query,
             'json'    => $this->attributes
         ];
+        if(empty($this->attributes)) {
+            unset($options['json']);
+        }
+        return $options;
     }
 
     /**
